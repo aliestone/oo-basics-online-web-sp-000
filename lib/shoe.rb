@@ -5,10 +5,10 @@ def initialize(brand)
 end
 
 attr_accessor :color, :size, :material, :condition
-attr_reader :brand
+attr_reader :brand, :cobble
 
 def cobble
-  Shoe.condition = new 
+  Shoe.condition = new
   puts "the shoe has been repaired."
 end
 
